@@ -2,6 +2,7 @@
 public class Variables {
 
 	public static void main(String[] args) {
+		System.out.println("Hello");
 		// TODO Auto-generated method stub
 /*Escribe un programa Java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo double y una variable C de tipo char y asigna a cada una un valor. A continuación muestra por pantalla:
 El valor de cada variable.
