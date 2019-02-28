@@ -55,7 +55,7 @@ El doble de cada variable
 La suma de todas las variables
 El producto de todas las variables
 */
-		System.out.println(":)");
+		System.out.println(":):");
 	}
 
 }
