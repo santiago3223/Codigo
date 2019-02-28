@@ -1,4 +1,4 @@
-public class Variables_Rahit {
+public class Variables_Gohan {
 
 	public static void main(String[] args) {
 		System.out.println("Hello");
