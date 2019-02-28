@@ -2,7 +2,6 @@
 public class Variables {
 
 	public static void main(String[] args) {
-		System.out.println("Hello");
 		// TODO Auto-generated method stub
 /*Escribe un programa Java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo double y una variable C de tipo char y asigna a cada una un valor. A continuación muestra por pantalla:
 El valor de cada variable.
@@ -18,27 +17,11 @@ Variable C = a
 4.56 - 5 = -0.4400000000000004
 Valor numérico del carácter a = 97
  */
+		int N = 5;
+		double A = 4.56;
+		char C = 'a';
 		
-		/*Escribe un programa Java que realice lo siguiente: declarar dos variables X e Y de tipo int, dos variables N y M de tipo double y asigna a cada una un valor. A continuación muestra por pantalla:
-El valor de cada variable.
-La suma  X + Y
-La diferencia  X – Y
-El producto  X * Y
-El cociente  X / Y
-El resto  X % Y
-La suma  N + M
-La diferencia  N – M
-El producto  N * M
-El cociente  N / M
-El resto  N % M
-La suma X + N
-El cociente Y / M
-El resto Y % M
-El doble de cada variable
-La suma de todas las variables
-El producto de todas las variables
-*/
-		System.out.println(":)");
+				System.out.println(":)");
 	}
 
 }
