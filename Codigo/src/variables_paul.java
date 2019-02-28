@@ -14,7 +14,7 @@ Variable A = 4.56
 Variable C = a
 5 + 4.56 = 9.559999999999999
 4.56 - 5 = -0.4400000000000004
-Valor numérico del carácter a = 97
+Valor numérico del carácter a = 98
  */
 		int N = 67;
 		double A = 4.56;
