@@ -21,7 +21,7 @@ Valor numérico del carácter a = 97
 		double A = 4.560;
 		char C = 'a';
 		
-				System.out.println(":)");
+				System.out.println(":v");
 	}
 
 }
