@@ -16,19 +16,27 @@ Variable C = a
 4.56 - 5 = -0.4400000000000004
 Valor numérico del carácter a = 97
  */
-		int N = 66;
+		int N = 5;
 		double A = 4.56;
 		char C = 'a';
+		String cadena  = "asd";
+		System.out.println("Variable N = " + N);
+		System.out.println("Variable A = " + A);
+		System.out.println("Variable C = " + (int)C);
+		System.out.println("5 + 4.56 = " + (N+A));
+		System.out.println("4.56 - 5 = " + (A-N));
+		System.out.println("Valor numérico del carácter a = " + (int) C);	
+		//System.out.println("Valor numérico del carácter a = " + (int) cadena);
 		
-				System.out.println("Variable N = " + N);
-				System.out.println("Variable A = " + A);
-				System.out.println("Variable C = " + (int)C);
-				
-				System.out.println("5 + 4.56 = " + (N+A));
-				System.out.println("4.56 - 5 = " + (A-N));
-				System.out.println("Valor numérico del carácter a = " + (int)C);
-				
-					
-	}
+		char c1 ='a';
+		int e1 = c1;
+		boolean b1 = false;
+		String cadena1 = String.valueOf(e1);
+		double d1 = e1;
+		System.out.println(cadena1);
+		
+		
+
+}
 
 }
