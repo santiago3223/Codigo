@@ -1,5 +1,5 @@
 
-public class Variables_Leonardo {
+public class Variables_Jheysson {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,16 +17,11 @@ Variable C = a
 4.56 - 5 = -0.4400000000000004
 Valor numérico del carácter a = 97
  */
-		int N = 5;
+		int N = 16;
 		double A = 4.56;
 		char C = 'a';
-		int D = (int)(C);
-		System.out.println("Variable N = "+ N);
-		System.out.println("Variable A = "+ A);
-		System.out.println("Variable C = "+ C);
-		System.out.println("N + A ="+ (N+A));
-		System.out.println("N - A ="+ (N-A));
-		System.out.println("valor numerico de C ="+ D);	
+		
+				System.out.println("Jheysson");
 	}
 
 }
