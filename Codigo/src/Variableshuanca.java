@@ -19,9 +19,10 @@ Valor numérico del carácter a = 97
  */
 		int N = 15;
 		double A = 4.55;
-		char C = 'C';
+		char C = 'c';
+		System.out.println("variable N = "+ N );
 		
-		System.out.println(":jksanjkdsandjkandj)");
+		
 	}
 
 }
