@@ -18,7 +18,7 @@ Variable C = a
 Valor numérico del carácter a = 97
  */
 		int N = 7717;
-		double A = 4.56;
+		double A = 4.560;
 		char C = 'a';
 		
 				System.out.println(":)");
