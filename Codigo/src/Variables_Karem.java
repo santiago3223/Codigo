@@ -1,5 +1,5 @@
 
-public class Variables_Willy {
+public class Variables_Karem {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,7 +17,7 @@ Variable C = a
 4.56 - 5 = -0.4400000000000004
 Valor numérico del carácter a = 97
  */
-		int N = 264264;
+		int N = 3454;
 		double A = 4.56;
 		char C = 'a';
 		
