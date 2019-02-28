@@ -1,5 +1,5 @@
 
-public class Variables {
+public class Variables_CarlosM {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,11 +17,11 @@ Variable C = a
 4.56 - 5 = -0.4400000000000004
 Valor numérico del carácter a = 97
  */
-		int N = 18;
-		double A = 4.56;
+		int N = 77111;
+		double A = 4.560;
 		char C = 'a';
 		
-				System.out.println(":)");
+				System.out.println(":v");
 	}
 
 }

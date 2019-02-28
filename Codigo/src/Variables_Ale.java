@@ -1,5 +1,5 @@
 
-public class Variables {
+public class Variables_Ale {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,4 +24,3 @@ Valor numérico del carácter a = 97
 				System.out.println(":)");
 	}
 
-}
