@@ -21,7 +21,15 @@ Valor numérico del carácter a = 97
 		double A = 4.56;
 		char C = 'a';
 		
-				System.out.println(":)");
+				System.out.println("Variable N = " + N);
+				System.out.println("Variable A = " + A);
+				System.out.println("Variable C = " + (int)C);
+				
+				System.out.println("5 + 4.56 " + (N+A));
+				System.out.println("4.56 - 5 " + (A-N));
+				System.out.println("Valor numérico del carácter a " + (int)C);
+				
+					
 	}
 
 }
