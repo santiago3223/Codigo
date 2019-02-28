@@ -20,6 +20,12 @@ public class Condicionales_Leonardo {
 			System.out.println("Se retira");
 		}
 		
+		int par_impar = 11;
+		if (par_impar %2 ==  0) {
+			System.out.println("El numero es Par");
+		}else {
+			System.out.println("El numero es Impar");
+		}
 	}
 
 }
