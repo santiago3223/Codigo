@@ -17,7 +17,7 @@ Variable C = a
 4.56 - 5 = -0.4400000000000004
 Valor numérico del carácter a = 97
  */
-		int N = 7717;
+		int N = 77171;
 		double A = 4.560;
 		char C = 'a';
 		
