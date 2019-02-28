@@ -8,7 +8,7 @@ public class variables_yenavi {
 		 * char y asigna a cada una un valor. A continuación muestra por pantalla:
 		El valor de cada variable.*/
 		int N=5;
-		double A=4.5;
+		double A=4.56;
 		char C='a';
 		System.out.println("Entero:"+N);
 		System.out.println("Double:"+A);
