@@ -35,8 +35,17 @@ Valor numérico del carácter a = 97
 		double d1 = e1;
 		System.out.println(cadena1);
 		
+		int[] arreglo_enteros = {1,2,3,4,5};
+		int[] arreglo_enteros2 = new int[5];
 		
-
+		
+		System.out.println(arreglo_enteros[0]);
+		System.out.println(arreglo_enteros2[0]);		
+		
+		char[] arreglo_caracteres = {'a','e','i','o','u'};
+		String cadena_arreglo = String.valueOf(arreglo_caracteres);
+		System.out.println(cadena_arreglo);
+		
 }
 
 }
