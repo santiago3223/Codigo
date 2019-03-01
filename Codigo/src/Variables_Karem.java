@@ -85,7 +85,7 @@ Valor numérico del carácter a = 97
 	    	    
 	 
 	     //condicionales
-	     double numero1= 23;
+	     double numero1= 22;
 	     
 	     double residuo=numero1%2;
 	     if	(residuo==0)
@@ -96,6 +96,13 @@ Valor numérico del carácter a = 97
 	     {
 	    	 System.out.println("Es ImPar");
 	     }
+	     
+	     int edad= 19;
+	     string nacionalidad="italiana";
+		if(edad>=18 && nacionalidad=="peruana")
+		{
+			System.out.println("Pasa");
+		}else if(nacionalidad == "Sera")
 	}
 
 }
