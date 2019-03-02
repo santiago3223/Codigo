@@ -2,6 +2,7 @@
 public class Condicionales {
 
 	public static void main(String[] args) {
+
 		int ingreso = 1001;
 		float monto_minimo_para_renta = 1000;
 		// Sintaxis if ('condicion que genere true o false'){}
@@ -61,6 +62,17 @@ public class Condicionales {
 		/* Ejercicio 3
 		 * Pedir dos numeros y decir si son iguales o no
 		 */
+			System.out.println("ingrese un numero");
+			int n = Entrada.entero();
+			int k = Entrada.entero();
+			
+			System.out.println("numero n : " + n);
+			System.out.println("numero k : " + k);
+			if(n==k) {
+				System.out.println("numeros iguales");
+			}else {
+				System.out.println("numeros no iguales");
+			}
 
 		/* Ejercicio 4 
 		 * Dados los coeficientes de una ecuacion de segundo grado muestre sus soluciones reales o indique si no existen 

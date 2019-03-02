@@ -102,15 +102,25 @@ Valor num�rico del car�cter a = 97
 		
 		int X = 5;
 		int Y = 10;
-		double NN = 15;
-		double M = 13;
+		double NN = 5;
+		double M = Y;
 		
 		System.out.println("X: " + X);
 		System.out.println("Y: " + Y);
 		System.out.println("NN: " + NN);
 		System.out.println("M: " + M);
+		System.out.println(X+Y);
+		System.out.println(X-Y);
+		System.out.println(X*Y);
+		System.out.println(X/Y);
+		System.out.println(X%Y);
 		
-		System.out.println((double)X/Y);
+		System.out.println(NN+M);
+		System.out.println(NN-M);
+		System.out.println(NN*M);
+		System.out.println(NN/M);
+		System.out.println(NN%M);
+		System.out.println(X+Y+NN+M);
 		
 		/* Ejercicio 4:
 		 * Programa java que declare cuatro variables enteras A, B, C y D y as�gnale un valor a cada una. A continuaci�n realiza las instrucciones necesarias para que:
@@ -119,12 +129,27 @@ Valor num�rico del car�cter a = 97
 			A tome el valor de D
 			D tome el valor de B
 		 */
+		int a = 1;
+		int b = 2;
+		int c = 3;
+		int d = 4;
+		b = c; // B <- C que es 3
+		c = a; // C <- A que es 1
+		a = d; // A <- D que es 4
+		d = b; // D <- B que es 3
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		
+		
 		
 		/* Ejercicio 5:
 		 * Dado el radio R de un circulo, calcular su area. 
 		 */
 		double radio = Entrada.real();
-		System.out.println(radio);
+		System.out.println("Area del circulo: " + 3.141592654 * radio *radio );
 		
 		
 }
