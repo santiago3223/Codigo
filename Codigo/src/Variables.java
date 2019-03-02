@@ -16,8 +16,7 @@ Variable C = a
 4.56 - 5 = -0.4400000000000004
 Valor num�rico del car�cter a = 97
  */
-	
-	
+		
 		int N = 5;
 		double A = 4.56;
 		char C = 'a';
@@ -66,6 +65,19 @@ Valor num�rico del car�cter a = 97
 		 * puntajeMayor
 		 * puntajeJugadores
 		 */
+		//int precio;
+		double precio;
+		String nombre_profesor;
+		String aula = "A311";
+		int esMayorDeEdad = 0; // 0 significa que es menor de edad; 1 significa que es mayor de edad
+		boolean MayorDeEdad = false;
+		double diametro_metros;
+		double peso_en_kilos = 30;
+		double edad_anios = 1.5;
+		String dni;
+		int puntajeMayor;
+		double puntajeJugadores;
+		
 		
 		/* Ejercicio 3:
 		 * Escribe un programa Java que realice lo siguiente: declarar dos variables X e Y de tipo int, dos variables N y M de tipo double y asigna a cada una un valor. A continuaci�n muestra por pantalla:
@@ -87,6 +99,18 @@ Valor num�rico del car�cter a = 97
 			La suma de todas las variables
 			El producto de todas las variables
 		 */
+		
+		int X = 5;
+		int Y = 10;
+		double NN = 15;
+		double M = 13;
+		
+		System.out.println("X: " + X);
+		System.out.println("Y: " + Y);
+		System.out.println("NN: " + NN);
+		System.out.println("M: " + M);
+		
+		System.out.println((double)X/Y);
 		
 		/* Ejercicio 4:
 		 * Programa java que declare cuatro variables enteras A, B, C y D y as�gnale un valor a cada una. A continuaci�n realiza las instrucciones necesarias para que:
