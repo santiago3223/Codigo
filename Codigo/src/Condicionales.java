@@ -160,8 +160,40 @@ public class Condicionales {
 		
 		System.out.println(mayor);
 		System.out.println(medio);
-		System.out.println(menor);
+		System.out.println(mayor);
+		
+		System.out.println("ingrese nota del alumno");
+		int nota = Entrada.entero();
+		
+		System.out.println("la nota del alumno es: "+ nota);
+		
+		
+		// Forma 1:
+		if(nota == 0) {
+			System.out.println("la nota del alumno es cero ");
+		}
+		if(nota == 1) {
+			System.out.println("la nota del alumno es uno ");
+		}
+		if(nota == 2) {
+			System.out.println("la nota del alumno es dos ");
+		}
+
+		
+		//Forma 2:
+		if(nota == 0) {
+			System.out.println("la nota del alumno es cero ");
+		}else {
+			if(nota == 1) {
+				System.out.println("la nota del alumno es uno ");
+			}else {
+				if(nota == 2) {
+					System.out.println("la nota del alumno es dos ");
+				}
+		}
 		
 	}
+	
+	
 	
 }
