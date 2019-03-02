@@ -87,11 +87,23 @@ public class Condicionales {
 		b=Entrada.entero();
 		System.out.println("Introduzca tercer coeficiente: (c):");
 		c=Entrada.entero();
+		System.out.println(a+" "+b+" "  +c);
+		d = b*b-4*a*c;
+		System.out.println(d);
+		if(d >= 0) {
+			x1=(-b+Math.sqrt(d))/(2*a);
+			x2=(-b-Math.sqrt(d)) /(2*a);
+			System.out.println(x1+ " "+x2);
+		}else {
+			System.out.println("no tiene");
+		}
 		// calculamos el determinante
 		// Preguntamos si el determinante es menor que cero, no existen soluciones reales
 		// Si es mayor o igual que cero, imprimimos las respuestas
 		
-
+		/*Ejercicio 6:
+		 * Pedir 3 numeros y mostrarlos de mayor a menor
+		 */
 	}
-
+	
 }
