@@ -105,7 +105,7 @@ public class Ejercicios1_Karem {
 //		System.out.println("El factorial de "+num+" es: "+resultado);
 		
 		
-//		int total=1;
+//		int total=1;    
 //		for (int pos=1; pos<=10; pos++)
 //		{
 //			int resul=1;
