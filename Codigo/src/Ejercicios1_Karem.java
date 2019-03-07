@@ -119,7 +119,44 @@ public class Ejercicios1_Karem {
 //		
 //		System.out.println("El resultado total es: "+ total);
 		
+//		int num1=Entrada.entero();
+//		int resul=0;
+//		int f=0;
+//		int g=0;
+//		if(num1==1)
+//		{
+//			System.out.println(0);
+//		}
+//		else if(num1==2)
+//		{
+//			System.out.println(1);
+//		}
+//		else
+//		{
+//			for(int i=1; i<num1; i++)
+//			{
+//				f = f + g;
+//	            g = f - g;
+//	            System.out.println(f); 
+//			}
+//			
+//		}
 		
+		int num2=Entrada.entero();
 		
+		for(int i=1; i<=num2; i++)
+		{
+			for (int col=1; col<=i;col++)
+			{
+				if (col==i)
+				{
+					System.out.print("*"+"\t");
+				}
+				
+				//sort
+			}
+			System.out.print("\n");
+		}
+
   }
 }
