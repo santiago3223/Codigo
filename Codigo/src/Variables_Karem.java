@@ -97,12 +97,12 @@ Valor numérico del carácter a = 97
 	    	 System.out.println("Es ImPar");
 	     }
 	     
-	     int edad= 19;
-	     string nacionalidad="italiana";
-		if(edad>=18 && nacionalidad=="peruana")
-		{
-			System.out.println("Pasa");
-		}else if(nacionalidad == "Sera")
+//	     int edad= 19;
+//	     String nacionalidad="italiana";
+//		if(edad>=18 && nacionalidad=="peruana")
+//		{
+//			System.out.println("Pasa");
+//		}else if(nacionalidad == "Sera")
 	}
 
 }
