@@ -2,8 +2,42 @@
 public class funciones {
 	public static void main(String[] args) {
 
-		DibujarRombo(15);
+		//DibujarRombo(15);
+		//DibujarBordesRectangulo(4, 8);
+		DibujarCasita(2);
+		
+		
 	}
+	
+	static void DibujarCasita(int ancho_casa)
+	{
+		for(int i = 1; i<= ancho_casa; i=i+2) {
+			dibujarLineaRombo(i, ancho_casa);
+		}
+		DibujarCuadrado(ancho_casa);
+	}
+	static void DibujarBordesRectangulo(int alto, int ancho) {
+		for(int i =1; i<=alto;i++) {
+			if(i==1 || i == alto) {
+				DibujarFila(ancho);
+			}else {
+				DibujarAsteriscos(1);
+				DibujarEspaciosEnBlanco((ancho-2)*2);
+				DibujarAsteriscos(1);
+				System.out.println();
+			}
+			
+		}
+		
+	
+	}
+	
+	static void DibujarRectangulo(int alto, int ancho) {
+		for(int i =1; i<=alto;i++) {
+			DibujarFila(ancho);
+		}
+	}
+	
 	
 	static void DibujarFlecha(int n) {
 		for(int i = 1; i<= n; i++) {
