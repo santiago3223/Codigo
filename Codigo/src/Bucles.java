@@ -34,13 +34,34 @@ public class Bucles {
 //		System.out.println("Bienvenido");
 //		
 		
-		int[] numeros = {10,20,30,40,50,60,70,80,90,100,110};
-		int indice = 0;
-		System.out.print("[");
-		while(indice < numeros.length) {
-			System.out.print(numeros[indice] + " ");
-			indice = indice + 1;
+//		int[] numeros = {10,20,30,40,50,60,70,80,90,100,110};
+//		int indice = 0;
+//		System.out.print("[");
+//		while(indice < numeros.length) {
+//			System.out.print(numeros[indice] + " ");
+//			indice = indice + 1;
+//		}
+//		System.out.println("]");
+		
+		
+//		int[] numeros = {10,20,30,40,50,60,70,80,90,100,110};
+//		
+//		for (int i = 0; i<numeros.length ; i = i + 1) {
+//			System.out.println(numeros[i]);
+//		}
+		// c++ ====> c = c+1;
+//		for(char c ='a'; c <= 'z'; c++) {
+//			System.out.println(c);
+//		}
+		
+		int num = Entrada.entero();
+		int resultado = 1;
+		for(int i = 1 ; i <= num; i=i+1) {
+			resultado = resultado * i;
+			System.out.println(i);
 		}
-		System.out.println("]");
+		System.out.println("Resultado: " + resultado);
+		
+		
 	}
 }
