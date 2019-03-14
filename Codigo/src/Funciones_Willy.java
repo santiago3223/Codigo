@@ -10,11 +10,25 @@ public class Funciones_Willy {
 //		DibujarCuadrado(10);
 //		DibujarRectangulo(3,6);
 //		System.out.println(encontrar_menor(4, 2, 1)); //Ejercicio 1
-		System.out.println(cuenta_vocales("AEIO"));
+//		System.out.println(cuenta_vocales("AEIO"));
+		
+//		System.out.print("Anchura del rectángulo: ");	//Ejercicio 1F
+//		int anchura = Entrada.entero();
+//		System.out.print("Altura del rectángulo: ");	//Ejercicio 1F
+//		int altura = Entrada.entero();
+//		System.out.print("Caracter a utilizar: ");	//Ejercicio 1F
+//		char caracter = Entrada.caracter();
+//		CrearRectangulo (anchura, altura, caracter);	//Ejercicio 1F
+		
+		System.out.print("Ancho del triangulo: ");	//Ejercicio 2F
+		int ancho = Entrada.entero();
+		System.out.print("Caracter a utilizar: ");	//Ejercicio 2F
+		char caracter = Entrada.caracter();
+		CrearTriangulo (ancho, caracter);		//Ejercicio 2F
+		
 		
 			
 	}
-	
 		// Ejercicio 1. Escribir una funcion en java que encuentre 
 		//el menor entre tres números.
 		public static int encontrar_menor (int a, int b, int c)
@@ -53,14 +67,7 @@ public class Funciones_Willy {
 			
 			
 		}
-		
-		
-		
-		
-		
-		
-		
-
+				
  		static void DibujarRectangulo(int alto, int ancho) {
 			for(int i = 1; i <= alto; i++) {
 				DibujarFila(ancho);
@@ -106,4 +113,42 @@ public class Funciones_Willy {
 		return palabra + palabra2;
 	}
 
+//		Ejercicio 1F: Un programa que pida la anchura y altura de un 
+//		rectángulo y el caracter a utilizar en el dibujo:
+		static void CrearRectangulo (int anchura, int altura, char caracter) {
+			for (int i = 0; i < altura; i++)
+			{
+				for (int j = 1; j < anchura; j++)
+				{
+					System.out.print(caracter + " ");
+				}
+				System.out.println(caracter);
+			}
+		}
+
+//		Ejercicio 2F: Un programa que pida la anchura de un triángulo y el caracter
+//		a utilizar en el dibujo
+		static void CrearTriangulo (int ancho, char caracter) {
+			for (int i = 0; i < ancho; i++)
+			{
+				for (int j = 0; j < (i + 1); j++)
+				{
+					System.out.print(caracter + " ");
+				}
+				System.out.println("");
+			}
+			for (int i = 0; i < (ancho - 1); i++)
+			{
+				for (int j = 1; j < (ancho - i); j++)
+				{
+					System.out.print(caracter + " ");
+				}
+				System.out.println("");
+			}
+			
+		}
+
+		
+		
+		
 }
