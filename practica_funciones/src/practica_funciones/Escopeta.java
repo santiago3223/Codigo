@@ -2,26 +2,25 @@ package practica_funciones;
 
 import java.util.concurrent.TimeUnit;
 
-public class Pistola extends Arma{
-	Pistola(){
+public class Escopeta extends Arma{
+	Escopeta(){
 	modelo ="";
-	cantidad_balas = 6;
-	t_recarga=2;
-	danio = 100;
-	alcance = 200;
-	velocidad = 1000;
+	cantidad_balas = 4;
+	t_recarga=4;
+	danio = 250;
+	alcance = 100;
+	velocidad = 700;
 	}
 	
 	
-	@Override
+	@Override 
 	public String toString() {
-		return "Pistola";
+		return "Escopeta";
 	}
 	
 	void Recargar() throws InterruptedException {
 		TimeUnit.SECONDS.sleep(t_recarga);
-		cantidad_balas = 6;
+		cantidad_balas = 4;
 		System.out.println("Arma cargada, puede disparar |--> ");
 	}
-	
 }

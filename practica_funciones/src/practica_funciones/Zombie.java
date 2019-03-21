@@ -1,16 +1,15 @@
 package practica_funciones;
 
-public class Zombie {
-	int hp = 300;
-	
-	void Morir() {
-		System.out.println("Ayyyy me muero");
+public class Zombie extends Enemigo {
+	public Zombie () {
+		hp = 300;
 	}
 	
-	void RecibirDisparo(int danio) {
-		hp = hp - danio;
-		if(hp <= 0) {
-			Morir();
-		}	
+	@Override //sirve para escribir mi clase, en caso de la momia me retorne zombie
+	public String toString() {
+		return "Zombie";
 	}
+
+	
+
 }

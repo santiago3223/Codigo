@@ -7,16 +7,42 @@ import armas.Metralleta;
 public class Funciones {
 
 	public static void main(String[] argumento) throws InterruptedException {
-		Zombie z1 = new Zombie();
-		Zombie z2 = new Zombie();
-		Zombie z3 = new Zombie();
-		Jugador j1 = new Jugador();
-		j1.Apuntar(z1);
-		j1.DispararArma(j1.arma1);
-		j1.Apuntar(z1);
-		j1.DispararArma(j1.arma2);
-		System.out.println(z1.hp);
+		EjecutarJuego();
 }
+	
+	static void EjecutarJuego() throws InterruptedException {
+		Zombie z1 = new Zombie();
+		Vampiro v1 = new Vampiro();
+		Wargen w1 = new Wargen();
+		
+		//Arma a1 = new Arma();
+		
+		Jugador j1 = new Jugador();
+		
+		System.out.println("Bienvenido a mata Zombies, Vampiro y Wargen");
+		String comando = Entrada.cadena();
+		while(!comando.equals("Salir")) {
+			if(comando.equals("z")) {
+				j1.Apuntar(z1);
+				j1.DispararArma(j1.arma1);
+			}else if(comando.equals("v")) {
+				j1.Apuntar(v1);
+				j1.DispararArma(j1.arma1);
+			}else if(comando.equals("w")) {
+				j1.Apuntar(w1);
+				j1.DispararArma(j1.arma1);			
+			}else if(comando.equals("R")) {
+				j1.arma1.Recargar();
+				
+			}
+			
+			comando = Entrada.cadena();
+			
+			
+			
+		}
+		System.out.println("Buen juego");
+	}
 
 	
 	

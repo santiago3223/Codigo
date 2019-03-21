@@ -5,13 +5,17 @@ public class Jugador {
 	String alias = "El matador";
 	Pistola arma1 = new Pistola();
 	Pistola arma2 = new Pistola();
-	Zombie objetivo = null; 
+	Enemigo objetivo = null; 
 	
-	void Apuntar(Zombie z) {
+	void Apuntar(Enemigo z) {
+		if(z.hp<=0) {
+			System.out.println("Su enemigo ya está muerto");
+		}else {
 		if (Math.random()>=0.5) {
 			objetivo = z;
 		}else {
 			objetivo = null;
+		}		
 		}
 	}
 	

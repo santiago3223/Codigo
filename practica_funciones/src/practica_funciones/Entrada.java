@@ -1,3 +1,4 @@
+package practica_funciones;
 import java.io.*;
 public class Entrada {
 	static String inicializar(){
